@@ -1,0 +1,64 @@
+body {
+    background-color: #001222;
+    color: lightgray;
+}
+
+h1 {
+  color: white;
+}
+
+.mt-3 {
+  margin-top: 2.5rem !important;
+}
+
+a {
+  color: #fceb2e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FCF5A7;
+
+}
+
+hr {
+  color: #fceb2e;
+  opacity:100;
+}
+
+b {
+  color: white;
+}
+
+li {
+  color: lightgray;
+}
+
+.video-container {
+  position: relative;
+  display: flex;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 1%;
+  left: 1.6%;
+}
+
+.top-right {
+  position: absolute;
+  top: 1%;
+  right: 1.6%;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.mb-5 {
+  margin-bottom: 2rem !important;
+}

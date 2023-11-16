@@ -1,0 +1,96 @@
+body {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+video
+{
+  border-radius: 0 !important;
+}
+
+h1 {
+  color: #00284d;
+  font-size: x-large;
+}
+
+.card{
+  border-color: #00284d;
+}
+
+.card-header {
+  color: white;
+  font-weight: bold;
+  border-width: 0;
+  background-color: #00284d;
+  border-radius: 0 !important;
+}
+
+.card-body {
+  color:black;
+}
+
+a, .btn {
+  color: #2e71fd;
+  text-decoration: none;
+}
+
+a:hover, .btn:hover {
+  color: #00284d;
+}
+
+.btn-sm, .btn-sm:hover, .btn-sm:focus {
+  background-color: #f8f8f8;
+  border-color: #d3d3d3;
+}
+
+.btn-sm:focus{
+  color: #00284d;
+  border-width: 0;
+}
+
+.text-blue {
+  color: #00284d;
+}
+
+.card-subtitle{
+  color: #727272;
+}
+
+.publications{
+  padding-bottom: .5rem;
+}
+
+.eiffeltower-container {
+  display: flex;
+  position: inherit;
+  color: black;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 1%;
+  left: 1.6%;
+}
+
+.top-left {
+  position: absolute;
+  top: 1%;
+  left: 1.6%;
+}
+
+.top-right {
+  position: absolute;
+  top: 1%;
+  right: 1.6%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 1%;
+  right: 1.6%;
+}
+
+.mx-1 {
+  background-color: #f8f8f8 !important;
+  color: #00284d;
+}
