@@ -60,34 +60,64 @@ a:hover, .btn:hover {
   padding-bottom: .5rem;
 }
 
-.eiffeltower-container {
+.video-container {
   display: flex;
   position: inherit;
   color: black;
 }
 
-.bottom-left {
-  position: absolute;
-  bottom: 1%;
-  left: 1.6%;
+.bal-beforePosition {
+  background: #00284d;
+  color: #fff;
+  left: 0;
+  pointer-events: none;
+  border-radius: 0.2rem;
+  padding: 2px 10px;
 }
 
-.top-left {
-  position: absolute;
-  top: 1%;
-  left: 1.6%;
+.bal-afterPosition {
+  background: #00284d;
+  color: #fff;
+  right: 0;
+  pointer-events: none;
+  border-radius: 0.2rem;
+  padding: 2px 10px;
 }
 
-.top-right {
+.beforeLabel {
   position: absolute;
-  top: 1%;
-  right: 1.6%;
+  bottom: 0;
+  margin: 0.5rem;
+  font-size: 1em;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
-.bottom-right {
+.afterLabel {
   position: absolute;
-  bottom: 1%;
-  right: 1.6%;
+  bottom: 0;
+  margin: 0.5rem;
+  font-size: 1em;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.topLabel {
+  position: absolute;
+  top: 0;
+  margin: 0.5rem;
+  font-size: 1em;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .mx-1 {

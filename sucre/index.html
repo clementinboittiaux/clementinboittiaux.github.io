@@ -72,19 +72,73 @@
                     <p>
                         We use camera poses, intrinsics and depth maps resulting from SfM/MVS to pair geometrically pixels between different views. 
                         We project pixels from one view to another, enabling us to pair points in low contrast areas. By tracking pixel intensities 
-                        at different observation distances, we simultaneously estimate their corrected color along with the parameters of an 
+                        at different observation distances, we can simultaneously estimate their corrected color along with the parameters of an 
                         underwater image formation model.
                     </p>
                     <img class="w-100" src="assets/method.webp">
 
-                    <h3 class="mt-5">Results</h3>
+                    <h3 class="mt-5">Visual comparisons</h3>
                     <hr class="hr"/>
                     <div class="video-container">
-                        <video class="w-100" autoplay loop muted controls>
+                        <video class="w-100" autoplay loop muted>
                             <source src="../assets/sucre.mp4" type="video/mp4" />
                         </video>
-                        <div class="top-left">Original</div>
-                        <div class="top-right">SUCRe</div>
+                        <div class="bal-beforePosition beforeLabel">
+                            Original
+                        </div>
+                        <div class="bal-afterPosition afterLabel">
+                            SUCRe
+                        </div>
+                    </div>
+
+                    <div class="container p-0">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                            <div id="example1" class="bal-container-small" style="aspect-ratio: 15/10;">
+                                <div class="bal-after">
+                                <img src="assets/20150418T030314.000Z_sucre.webp">
+                                <div class="bal-afterPosition afterLabel">
+                                    SUCRe
+                                </div>
+                                </div>
+                                <div class="bal-before">
+                                <div class="bal-before-inset">
+                                <img src="assets/20150418T030314.000Z.webp">
+                                    <div class="bal-beforePosition beforeLabel">
+                                    Original
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="bal-handle">
+                                <span class=" handle-left-arrow"></span>
+                                <span class="handle-right-arrow"></span>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6">
+                            <div id="example2" class="bal-container-small" style="aspect-ratio: 15/10;">
+                                <div class="bal-after">
+                                <img src="assets/20220420T124325.733Z_sucre.webp">
+                                <div class="bal-afterPosition afterLabel">
+                                    SUCRe
+                                </div>
+                                </div>
+                                <div class="bal-before">
+                                <div class="bal-before-inset">
+                                <img src="assets/20220420T124325.733Z.webp">
+                                    <div class="bal-beforePosition beforeLabel">
+                                    Original
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="bal-handle">
+                                <span class=" handle-left-arrow"></span>
+                                <span class="handle-right-arrow"></span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
 
                     <h3 class="mt-5" id="citation">Citation</h3>
@@ -102,7 +156,7 @@
 
                     <div class="w-100 text-end">
                         <p><small>
-                        This page uses ACE's <a href="https://nianticlabs.github.io/ace/">template</a> and particles.js <a href="https://vincentgarreau.com/particles.js/">library</a>.
+                        This page uses ACE's <a href="https://nianticlabs.github.io/ace/">template</a>, particles.js <a href="https://vincentgarreau.com/particles.js/">library</a>, and <a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/">3D Gaussian Splatting</a> script.
                         </small></p>
                     </div>
                 </div>
@@ -145,6 +199,15 @@
                     }
                 }
             }
+        </script>
+        <script src="assets/beforeafter.js"></script>
+        <script>
+            new BeforeAfter({
+                id: '#example1'
+            });
+            new BeforeAfter({
+                id: '#example2'
+            });
         </script>
     </body>
 </html>
