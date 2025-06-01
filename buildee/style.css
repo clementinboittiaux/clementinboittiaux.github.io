@@ -1,0 +1,235 @@
+body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #00284d;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #00284d;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    color: #00284d;
+    font-weight: 500;
+}
+
+p {
+    color: #444;
+    margin-bottom: 1.2rem;
+}
+
+a {
+    color: #00a6c6;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #00819b;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #00284d, transparent);
+    margin: 1.5rem 0;
+    opacity: 1;
+}
+
+.hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #00284d, transparent);
+    margin: 1.5rem 0;
+}
+
+/* List styling */
+ul, ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+li {
+    color: #444;
+    margin-bottom: 0.5em;
+}
+
+/* Button styling */
+.btn {
+    background-color: #00a6c6;
+    border-color: #00a6c6;
+    color: white;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+    background-color: #00819b;
+    border-color: #00819b;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    color: #00284d;
+}
+
+.btn-secondary:hover {
+    background-color: #00284d;
+    border-color: #00284d;
+    color: white;
+}
+
+/* Video container */
+.video-container {
+    position: relative;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
+
+/* Code block styling */
+pre {
+    background-color: #f8f9fa !important;
+    border-radius: 8px !important;
+    border: 1px solid #dee2e6 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem !important;
+    margin: 1.5rem 0;
+}
+
+pre code {
+    display: block;
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #333;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+/* Acknowledgments list */
+#acknowledgements ul li {
+    margin-bottom: 0.75em;
+}
+
+#acknowledgements ul li a {
+    font-weight: 500;
+}
+
+/* Spacing utilities */
+.mt-3 {
+    margin-top: 2.5rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 2.5rem !important;
+}
+
+/* Citation box */
+#citation pre {
+    background-color: #f8f9fa !important;
+    font-size: 0.85em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    .btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Feature icons styling */
+.feature-icon {
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    height: 100%;
+    background-color: #f8f9fa;
+}
+
+.feature-icon:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon i {
+    color: #00284d;
+}
+
+.feature-icon h5 {
+    color: #00284d;
+    margin-bottom: 10px;
+}
+
+.feature-icon p {
+    color: #666;
+}
+
+/* Improve section headers */
+h3 {
+    color: #00284d;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+/* Improve buttons */
+.btn-secondary {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    color: #00284d;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    background-color: #00284d;
+    border-color: #00284d;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Improve citation box */
+pre {
+    background-color: #f8f9fa !important;
+    border-radius: 8px !important;
+    border: 1px solid #dee2e6 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem !important;
+}
+
+/* Code block styling */
+pre code {
+    display: block;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #333;
+}
+
+pre code .language-python {
+    color: #333;
+}
+
+pre code .comment {
+    color: #6a737d;
+    font-style: italic;
+}

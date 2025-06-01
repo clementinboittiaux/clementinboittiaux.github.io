@@ -124,3 +124,44 @@ a:hover, .btn:hover {
   background-color: #f8f8f8 !important;
   color: #00284d;
 }
+
+/* Timeline styles */
+.timeline-connector {
+    position: absolute;
+    left: 25px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #d8d8d8;
+    z-index: 0;
+    transform: translateX(-50%);
+}
+
+.logo-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    border: 2px solid #d8d8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+.logo-img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    border-radius: 8px;
+    position: relative;
+    z-index: 2;
+    margin: 1px;
+}
+
+.job-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00284d;
+}
