@@ -3,8 +3,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-video
-{
+video {
   border-radius: 0 !important;
 }
 
@@ -13,7 +12,7 @@ h1 {
   font-size: x-large;
 }
 
-.card{
+.card {
   border-color: #00284d;
 }
 
@@ -26,24 +25,28 @@ h1 {
 }
 
 .card-body {
-  color:black;
+  color: black;
 }
 
-a, .btn {
+a,
+.btn {
   color: #2e71fd;
   text-decoration: none;
 }
 
-a:hover, .btn:hover {
+a:hover,
+.btn:hover {
   color: #00284d;
 }
 
-.btn-sm, .btn-sm:hover, .btn-sm:focus {
+.btn-sm,
+.btn-sm:hover,
+.btn-sm:focus {
   background-color: #f8f8f8;
   border-color: #d3d3d3;
 }
 
-.btn-sm:focus{
+.btn-sm:focus {
   color: #00284d;
   border-width: 0;
 }
@@ -52,11 +55,21 @@ a:hover, .btn:hover {
   color: #00284d;
 }
 
-.card-subtitle{
+.card-subtitle {
   color: #727272;
 }
 
-.publications{
+.card-subtitle a {
+  color: #727272;
+  text-decoration: none;
+}
+
+.card-subtitle a:hover {
+  color: #00284d;
+  text-decoration: underline;
+}
+
+.publications {
   padding-bottom: .5rem;
 }
 
@@ -127,41 +140,41 @@ a:hover, .btn:hover {
 
 /* Timeline styles */
 .timeline-connector {
-    position: absolute;
-    left: 25px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: #d8d8d8;
-    z-index: 0;
-    transform: translateX(-50%);
+  position: absolute;
+  left: 25px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #d8d8d8;
+  z-index: 0;
+  transform: translateX(-50%);
 }
 
 .logo-circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 12px;
-    border: 2px solid #d8d8d8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 2;
-    background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: 2px solid #d8d8d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  background-color: white;
 }
 
 .logo-img {
-    width: 44px;
-    height: 44px;
-    object-fit: contain;
-    border-radius: 8px;
-    position: relative;
-    z-index: 2;
-    margin: 1px;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 8px;
+  position: relative;
+  z-index: 2;
+  margin: 1px;
 }
 
 .job-title {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #00284d;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00284d;
 }
