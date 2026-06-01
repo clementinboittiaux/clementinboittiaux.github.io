@@ -393,8 +393,8 @@ async function main() {
   // --------------------------------------------------------------------- //
   const box = new THREE.Box3().setFromObject(scene);
   const radius = box.getSize(new THREE.Vector3()).length() * 0.5 || 1;
-  controls.target.set(1.114, 5.861, 4.223);
-  camera.position.set(-4.676, -8.579, 12.181);
+  controls.target.set(0.940, 5.565, 3.250);
+  camera.position.set(-1.139, -3.407, 7.556);
   camera.near = radius / 100;
   camera.far = radius * 100;
   camera.updateProjectionMatrix();
